@@ -3,103 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Monitoring Dashboard</title>
-    <script src="https://cdn.jsdelivr.net/npm/qrious/dist/qr.min.js"></script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 20px;
-        }
-        .label-container {
-            background: #fff;
-            border: 2px solid #ddd;
-            border-radius: 10px;
-            padding: 20px;
-            width: 300px;
-            text-align: center;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-        .label-header {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .indicator {
-            position: relative;
-            height: 20px;
-            width: 100%;
-            margin: 20px 0;
-            background: linear-gradient(to right, green, yellow, red);
-            border-radius: 5px;
-            overflow: hidden;
-        }
-        .moving-line {
-            position: absolute;
-            height: 100%;
-            width: 2px;
-            background: black;
-            animation: moveLine 10s infinite;
-        }
-        @keyframes moveLine {
-            0% { left: 0%; }
-            100% { left: 100%; }
-        }
-        .qr-container {
-            margin-top: 10px;
-        }
-        .note {
-            font-size: 12px;
-            color: #777;
-            margin-top: 10px;
-        }
-    </style>
+    <title>Website Yet to Be Developed</title>
 </head>
 <body>
-    <!-- Food 1 -->
-    <div class="label-container">
-        <div class="label-header">Apples</div>
-        <div>Freshness Indicator (5°C/41°F)</div>
-        <div class="indicator">
-            <div class="moving-line"></div>
-        </div>
-        <div class="emoji">😊 😐 ☹️</div>
-        <div class="qr-container">
-            <canvas id="qr1"></canvas>
-        </div>
-        <div class="note">Scan to monitor: Apples</div>
-    </div>
-    <!-- Food 2 -->
-    <div class="label-container">
-        <div class="label-header">Milk</div>
-        <div>Freshness Indicator (5°C/41°F)</div>
-        <div class="indicator">
-            <div class="moving-line"></div>
-        </div>
-        <div class="emoji">😊 😐 ☹️</div>
-        <div class="qr-container">
-            <canvas id="qr2"></canvas>
-        </div>
-        <div class="note">Scan to monitor: Milk</div>
-    </div>
-    <!-- Add more food items as needed -->
-    <script>
-        // Generate QR codes for each food item
-        const qr1 = new QRious({
-            element: document.getElementById('qr1'),
-            value: 'https://example.com/apples', // Link for Apples
-            size: 100,
-        });
-        const qr2 = new QRious({
-            element: document.getElementById('qr2'),
-            value: 'https://example.com/milk', // Link for Milk
-            size: 100,
-        });
-    </script>
+    <h1>Website yet to be developed</h1>
+    <p>Stay tuned for updates!</p>
 </body>
 </html>
